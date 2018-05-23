@@ -1,0 +1,243 @@
+%-------------------------
+% Resume in Latex
+% Author : Gautham M
+% License : MIT
+%------------------------
+\documentclass[letterpaper,11pt]{article}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[pdftex]{hyperref}
+\usepackage{fancyhdr}
+
+
+\pagestyle{fancy}
+\fancyhf{} % clear all header and footer fields
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% Adjust margins
+\addtolength{\oddsidemargin}{-0.375in}
+\addtolength{\evensidemargin}{-0.375in}
+\addtolength{\textwidth}{1in}
+\addtolength{\topmargin}{-.5in}
+\addtolength{\textheight}{1.0in}
+
+\urlstyle{same}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Sections formatting
+\titleformat{\section}{
+  \vspace{-4pt}\scshape\raggedright\large
+}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
+
+%-------------------------
+% Custom commands
+\newcommand{\resumeItem}[2]{
+  \item\small{
+    \textbf{#1}{: #2 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-1pt}\item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & #2 \\
+      \textit{\small#3} & \textit{\small #4} \\
+    \end{tabular*}\vspace{-5pt}
+}
+
+\newcommand{\resumeSubItem}[2]{\resumeItem{#1}{#2}\vspace{-4pt}}
+
+\renewcommand{\labelitemii}{$\circ$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=*]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+%-------------------------------------------
+%%%%%%  CV STARTS HERE  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\begin{document}
+\begin{center}
+\textbf{{\huge Gautham M}}
+\end{center}
+%----------HEADING-----------------
+\begin{tabular*}
+{\textwidth}{l@{\extracolsep{\fill}}r}
+  \textbf{Contact: }& \textbf{ Address:} \\
+  {15CO118.gautham@nitk.edu.in} & {Raj Krupa Deepika Nagara}\\
+   {gauthamm1997@gmail.com} & {Kulai Mangalore}\\
+  Phone:91-8904211683 & {D.K. Karnataka 575019}\\
+\end{tabular*}
+
+
+%-----------EDUCATION-----------------
+\section{Education}
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      {National Institute of Technology Karnataka}{Surathkal,India}
+      {BTech in Computer science and Engineering(6th Semester);  CGPA: 6.84}{Aug. 2015 -- July. 2019}
+    \resumeSubheading
+      {Kendriya Vidyalaya No.1 Panambur (CBSE)}{Mangalore, India}
+      {class 12; 87.4\%}{July. 2015}
+    \resumeSubheading
+      {NMPT High School Panambur (KSSEB)}{Mangalore, India}
+      {class 10; 97.12\%}{June. 2013}
+  \resumeSubHeadingListEnd
+
+%-----------Skills---------------------
+\section{Key Skills}
+    \resumeItemListStart
+    \resumeItem{Programming}
+    {C/C++, Java, Python.}
+    \resumeItem{Web and App Development:}
+    {HTML, CSS, JavaScript, PHP, nodeJs.}
+    \resumeItem{Frameworks:}
+    {Angular 5, Bootstrap, LARAVEL, SpringMVC.}
+    \resumeItem{Databases:}
+    {My SQL,NoSQL.}
+    \resumeItem{Machine Learning Libraries:}
+    {Jupyter, Scikit, Numpy, Pandas.}
+    \resumeItem{Simulators:}
+    {ns-3.}
+    \resumeItem{Operating Systems}
+    {Windows 10, Ubuntu 18.04(Linux)}
+    \resumeItem{Other Utility}
+    {GIT, Junit}
+    \resumeItemListEnd
+%-----------EXPERIENCE-----------------
+\section{Internships}
+  \resumeSubHeadingListStart
+
+    \resumeSubheading
+      {BNY Mellon Technology}{Chennai, India}
+      {Software Development Intern}{May 2018 - July 2018}
+     
+      \resumeItemListStart
+        \resumeItem {Data Analysis}
+         {Analyzed and Structured Raw Data Pertaining to the clients. }
+         \resumeItem {User Interface Building}
+         {Creation of User Interfaces using Angular 5 to access the database. }
+          \resumeItem {Api Development}
+         {Back-end For the Project was built on MVC Architecture using Spring Boot.}
+          \resumeItem {Validation}
+         {The data entered input received from the users are validated for standards and discrepancy at both UI and API Level}
+         \resumeItem {Testing}
+         {The Developed Apis were Tested using Spring Test and Junit .}
+      \resumeItemListEnd
+
+    \resumeSubheading
+      {Enheit Online Pvt.ltd}{Chennai, India}
+      {Web Development Intern}{May 2017 - July 2017}
+      \resumeItemListStart
+        \resumeItem{Gallary Page}
+          {An Image Gallery Page was built using Laravel Php Frameworks }
+        \resumeItem{Color detection }
+          {The uploaded image was processed to detect colors which could be used for searching.}
+        \resumeItem{User Interface Modifications}
+          {The website was modified so as to Increase the user Friendliness.}
+        \resumeItem{Social Media Login}
+          {login with Facebook and Google plus were implemented.}
+        \resumeItem{Api for App Interaction}
+          {Apis were developed to interact with Android Applications}
+      \resumeItemListEnd
+
+    \resumeSubheading
+      {IT Section Finance Division (EDP) of New Mangalore Port Trust  }{Mangalore, India}
+      {Trainee}{December 2016}
+      \resumeItemListStart
+        \resumeItem{Port Operation System}
+          {Analyzed various modules and sub-modules of Port Operations Management and Information System, Port
+          Operations and Port Control Systems, }
+        \resumeItem{ERP}
+        {Studied the functionality of Enterprise Resource Planning, Hospital Management Systems used in the industry}
+        \resumeItem{Servers}
+        {Analysed the methodologies used for Server load sharing  Firewall systems  and Data Backup.}
+      \resumeItemListEnd
+  \resumeSubHeadingListEnd
+
+
+%-----------PROJECTS-----------------
+\section{Projects}
+  \resumeSubHeadingListStart
+    \resumeSubItem{CARED in Linux Kernel}
+      {Implementation of Cautiously Adaptive Random Early Detection Active Queue Management System Algorithm in Linux
+Kernel.}
+    \resumeSubItem{Image Pre-Processing for OCR}
+      {Improving the efficiency of OCR with image pre processing techniques like contrast changes, Thresholding, angle Correction.}
+     \resumeSubItem{Water Quality analysis}
+      {Given the factors determining quality of water at given place genetic algorithms were used to predict the quality of water.}
+    \resumeSubItem{User Friendly Ping application for ns-3}
+      {a module proposed where it becomes easy to ping a node on ns-3 Network simulator.}
+    \resumeSubItem{K-Means Image Segmentation on Massively GPU Architecture }
+      {Implement Kmeans image segmentation algorithm on CUDA GPU Architecture and compare the performance with CPU.}
+    \resumeSubItem{CRC-Assisted Error Correction In a trellis coded System with bit stuffing}
+      {Implemented using c++ and tested using client server model.}
+     \resumeSubItem{ChatBot}
+      {Using Sequence to Sequence Artificial Neural Network on Tensor flow to implement Simple Chat Bot .}
+     \resumeSubItem{OS-SYM}
+      {implements various concepts of operating System and also
+works as a tutor for people with no prior knowledge about the topic using python Tkinter Library.}
+     \resumeSubItem{OS-BOOT}
+     {A capstone project on development of a operating system running on bochs simulator the accepts command for copy, create and delete files.}
+    \resumeSubItem{RSA-SYM}
+     {A simple C++ code to show the working of RSA Encryption Algorithm.}
+    \resumeSubItem{GYM-Management}
+     {Centralized maintenance and performance tracking System for tracking gym users Data.}
+    \resumeSubItem{C Compiler }
+     {A Simple c compiler with limited functionality that generates Intermediate code from C code built with yacc and lex.}
+    \resumeSubItem{Web Development }
+     {Couple of websites were developed E-commerce for collage students, Stock buy and sell, Scraping websites using Angular,PHP,Bootstrap. }
+    
+  \resumeSubHeadingListEnd
+
+
+%--------Areas of Interest------------
+\section{Areas of Interest}
+{Algorithms, Data structures, Machine Learning, Artificial Intelligence,Computer Networks, Data Mining, Web Development}
+%--------Awards and other Activities------------
+\section{Awards and other Activities}
+\begin{itemize}
+   \vspace{-1pt} \item Selected for NTSE scholarship in which one thousand students were selected by aptitude test in the year 2011.\vspace{-5pt}
+  \vspace{-1pt}  \item School runner up in class 10 by securing 97.12 \% marks in the year 2013.\vspace{-5pt}
+  \vspace{-1pt}  \item  Successfully completed Inspire internship conducted by Department of Science and Technology for motivating talented \vspace{-5pt}
+youth to take up research careers in winter 2014.
+  \vspace{-1pt}    \item Attended 3 days workshop on ethical hacking organized by ‘Engineer’ NITK. \vspace{-5pt}
+  \vspace{-1pt}    \item Completed Google Applied CS with android workshop.\vspace{-5pt}
+   \vspace{-1pt}   \item Attended five days GIAN Course on Software Defined Networks at NITK Surathkal.\vspace{-5pt}
+\end{itemize}
+%--------Personnel Information------------
+
+\section{Personnel Information}
+  \resumeItemListStart
+    \resumeItem{Date Of Birth}
+    {04 August 1997}
+     \resumeItem{Sex}
+    {Male}
+         \resumeItem{Hobbies}
+    {Competitive Coding, taking up MOOC’s, Swimming, Traveling.}
+  \resumeItemListEnd
+%--------Profiles------------
+\section{Profiles}
+  \resumeSubHeadingListStart
+    \resumeSubItem{GitHub}
+      {https://github.com/GauthamMaraswami}
+    \resumeSubItem{Linkedin}
+      {https://www.linkedin.com/in/gautham-maraswami}
+        \resumeSubItem{WebPage}
+      {https://gauthammaraswami.github.io/}
+        \resumeSubHeadingListEnd
+%-------------------------------------------
+\end{document}
